@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Background Eater",
+  "description": "This will change the background of Google.com",
+  "version": "1.0",
+  "icons": {
+    "16": "/images/1.png",
+    "48": "/images/1.png",
+    "128": "/images/1.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://nlearn.nsbm.ac.lk/my/index.php/*"],
+      "css": ["main.css"]
+    }
+  ]
+}
